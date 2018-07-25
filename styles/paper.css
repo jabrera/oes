@@ -1,0 +1,126 @@
+#app-container {
+	background-color: #ccc !important;
+}
+body {
+	background: #ccc;
+	font-family: 'Roboto';
+	margin: 0px;
+	padding: 0px;
+}
+.bg	{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	width: 780px;
+	left: 50%;
+	margin-left: -390px;
+	background: white;
+	box-shadow: 0px 0px 30px rgba(0,0,0,.1);
+}
+.bg.landscape {
+	width: 986px !important;
+	margin-left: -493px !important;
+}
+.paper {
+	position: relative;
+	width: 700px;
+	min-height: 906px;
+	font-size: 14px;
+	margin: 0px auto;
+	background: white;
+	padding-bottom: 81px;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.paper.landscape {
+	width: 906px !important;
+	min-height: 700px !important;
+}
+.paper .header {
+	float: left;
+	width: 100%;
+	height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	color: #777;
+	font-size: 12px;
+}
+.paper .header.right {
+	text-align: right;
+}
+.paper .header.center {
+	text-align: center;
+}
+.paper .footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 81px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0px 20px;
+}
+.paper .footer.right {
+	text-align: right;
+}
+.paper .footer.center {
+	text-align: center;
+}
+.paper .content {
+	float: left;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0px 20px;
+}
+textarea {
+	border: 0px;
+	min-width: 100%;
+	max-width: 100%;
+	font-family: 'Roboto';
+	font-size: 14px;
+	resize: none;
+	height: auto;
+}
+textarea.resize::-webkit-scrollbar {
+	width: 0px;
+} 
+textarea:hover, textarea:active, textarea:focus {
+	outline: 0;
+}
+span.title {
+	font-size: 28px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-weight: bold;
+}
+table.cor {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+table.cor tr:first-child td {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+table.cor td {
+	padding: 4px;
+	border: 1px solid #666;
+}
